@@ -1,0 +1,60 @@
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('../../images/header-bg.jpg');
+    background-size: cover;
+    justify-content: center;
+
+}
+.container{
+    width: 75%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.text{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    text-align: start;
+    color: #fff;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+.button {
+    padding: 9px 32px;
+    width: fit-content;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+    }
+
+    .button:hover {
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: hsl(0, 0%, 100%);
+    border-color: white;
+    }
+
+    .button:active {
+    letter-spacing: 3px;
+    color: hsl(0, 0%, 100%);
+    transform: translateY(10px);
+    transition: 100ms;
+    }
+
+

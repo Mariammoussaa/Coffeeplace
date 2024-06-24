@@ -1,0 +1,52 @@
+.parent{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.container{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+    align-items: center
+}
+.img{
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    }
+
+.row{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.row ul{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.row li{
+    list-style: none;
+    font-size: 12px;
+
+}
+li a{  
+    text-decoration: none;
+    color:#fff;
+}
+
+.position{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color:rgba(28, 5, 0, 0.372)
+}

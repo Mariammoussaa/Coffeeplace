@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+body {
+  font-family: 'Sen Sherief', sans-serif  !important;
+}
+p{
+  color:rgb(133, 128, 128) 
+}
+::selection{
+  background-color: #b68834;
+  color: #fff;
+}
+h1{
+  font-size: 36px ;
 }

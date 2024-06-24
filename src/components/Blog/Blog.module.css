@@ -1,0 +1,75 @@
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.container{
+    width: 85%;
+    height: 90vh; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+ .text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.text h1 ,p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container .card{
+    width: 530px;
+    height: 100%;
+}
+.card img{
+        width: 100%;
+        height: 50%;
+    }
+.link{
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 15px 0 0 0;
+}
+.container a{
+    text-decoration: none;
+    color: #282828;
+    border: #f4f4f4 1px solid;
+    padding: 8px 20px;
+    border-radius: 15px;
+    transition: .6s;
+    
+}
+.paragraph{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start ;
+}
+
+/* Here for Hover */
+.container a:hover{
+    transition: .6s;
+    background-color: #b68834;
+    color: #fff;
+}
